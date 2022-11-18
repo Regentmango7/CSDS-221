@@ -1,14 +1,14 @@
 //imports
-    import toDo from './toDo.vue';
+    import app from './App.vue';
 
 //define routes
     export default [{
-            path: '/toDo',
-            name: 'toDo',
-            component: toDo
+            path: '/app',
+            name: 'app',
+            component: app
         },{
             path: "*",
             name: 'default',
-            redirect: "/toDo"
+            redirect: "/app"
         }
     ];

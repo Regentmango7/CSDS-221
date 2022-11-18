@@ -3,7 +3,7 @@
   import vuetify from 'vuetify';
   import router from 'vue-router';
   import paths from './routing.config';
-  import app from './app.vue';
+  import app from './App.vue';
 
 //use
   vue.use(router);
