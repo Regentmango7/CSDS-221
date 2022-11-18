@@ -1,4 +1,5 @@
 <template>
+  <div>
   <div class="Header row">
     <div class="col-md-10"><i class="fa fa-bars"></i> FRAMEWORKS</div>
     <div class="col-md-2">
@@ -59,6 +60,7 @@
       </tr>
     </tbody>
   </table>
+  </div>
 </template>
 
 <script>
