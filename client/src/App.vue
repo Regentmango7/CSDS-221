@@ -17,8 +17,8 @@
 </template>
 
 <script>
-import Table from '../../temp/components/Table.vue';
-import Dialogue from '../../temp/components/dialogue.vue';
+import Table from './components/Table.vue';
+import Dialogue from './components/dialogue.vue';
 import toastr from 'toastr';
 
 export default {
