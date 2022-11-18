@@ -3,12 +3,12 @@
 
 //define routes
     export default [{
-            path: '/app',
-            name: 'app',
+            path: '/App',
+            name: 'App',
             component: app
         },{
             path: "*",
             name: 'default',
-            redirect: "/app"
+            redirect: "/App"
         }
     ];
